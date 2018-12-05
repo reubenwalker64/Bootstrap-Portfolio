@@ -6,42 +6,58 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Bootstrap Portfolio</title>
     <!-- Bootstrap CSS -->
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
 </head>
 
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="index.html">Reuben Walker, Jr.</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+      <div class="navbar-nav">
+            <a class="nav-item nav-link active" href="index.html">Home &nbsp;<span class="sr-only">(current)</span></a>
+            <a class="nav-item nav-link active" href="contact.html">Contact Me &nbsp;</a>
+            <a class="nav-item nav-link active" href="portfolio.html">My Portfolio</a>
+    </div>
+  </nav>
 
 <body>
-    
+
     <header id="masthead">
         <div class="container">
-            <a href="index.html" id="logo">Reuben Walker Jr.</a>
-            <nav>
-                <div id="nav-content">
-                    <a href="index.html">About Me &nbsp;</a>
-                    <a href="contact.html">Contact Me &nbsp;</a>
-                    <a href="portfolio.html">My Portfolio</a>
-                </div>
-            </nav>
+
         </div>
     </header>
-    
-    <div id="main-container" class="container">
+
+    <div id="main-container" class="container mb-5">
         <section class="main-section">
             <h1>About Me</h1>
-                  
+
                     <hr>
-            <img src="assets/images/Reuben-Profile.jpg" alt="Photo of Reuben Walker, Jr." width="100px">
-            <p>Welcome. I’m Reuben Walker, and Mobile Atom Media (located in Orlando, FL) is my company, pride and joy, and sometime nemesis. If you are a small business owner in today’s chaotic business environment, I am sure you can relate.</p>
-                    <section id="section3">
-                        <p>I use the “three pillars” of content marketing to help you grow your business. What is content marketing? It is a form of “inbound” or “pull” marketing where you draw people to your site because of the search optimized content you place on it. </p>
-                        <p>That content demonstrates your expertise, builds your authority, and gets the audience to like and trust you. It also moves them through the buyer’s journey and gets them to buy your products.</p> 
-                        <p>Then it helps you retain them as happy, loyal customers who are also advocates for your business.</p>
-        </section>
+            <div class="row">
+                <div class="col-4">
+                    <img src="assets/images/Reuben-Profile.jpg" class="img-fluid" alt="Responsive image" alt="Photo of Reuben Walker, Jr.">
+                </div>
+                <div class="col-8">
+                    <p>Welcome. I’m Reuben Walker, and Mobile Atom Media (located in Orlando, FL) is my company, pride and joy, and sometime nemesis. If you are a small business owner in today’s chaotic business environment, I am sure you can relate.</p>
+                    <p>I use the “three pillars” of content marketing to help you grow your business. What is content marketing? It is a form of “inbound” or “pull” marketing where you draw people to your site because of the search optimized content you place on it. </p>
+                    <p>That content demonstrates your expertise, builds your authority, and gets the audience to like and trust you. It also moves them through the buyer’s journey and gets them to buy your products.</p>
+                    <p>Then it helps you retain them as happy, loyal customers who are also advocates for your business.</p>
+
+
+                </div>
+            </div>
+                </section>
     </div>
+
     <footer>
         <div class="container">
+
             Copyright 2018-2019 Reuben Walker Jr.
-        </div>
-    </footer>         
+            </div>
+
+    </footer>
 </body>
 </html>
